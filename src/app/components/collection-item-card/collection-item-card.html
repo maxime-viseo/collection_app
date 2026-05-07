@@ -1,0 +1,15 @@
+<article class="collection-item-card">
+    <span class="card-rarity">{{ collectionItem().rarity }}</span>
+    <figure class="card-image">
+        <img src="{{ collectionItem().image }}" alt="{{ collectionItem().name }}"/>
+    </figure>
+    <header class="card-header">
+        <h2 class="card-name">{{ collectionItem().name }}</h2>
+    </header>
+    <p class="card-description">
+        {{ collectionItem().description }}
+    </p>
+    <footer>
+        <p class="card-price">{{ collectionItem().price }} $</p>
+    </footer>
+</article>
