@@ -12,3 +12,7 @@
     justify-content: space-between;
     margin: 0 1rem;
 }
+
+.collection-grid {
+    margin: 8px;
+}
